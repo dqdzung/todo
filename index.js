@@ -48,7 +48,7 @@ const handleDelete = (index) => {
 	render();
 };
 
-console.log('ahihi')
+console.log("ahhih");
 
 const handleCheck = (el) => {
 	const index = parseInt(el.id.split("-").at(-1));
