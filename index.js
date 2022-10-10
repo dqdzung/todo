@@ -48,6 +48,8 @@ const handleDelete = (index) => {
 	render();
 };
 
+console.log('ahihi')
+
 const handleCheck = (el) => {
 	const index = parseInt(el.id.split("-").at(-1));
 	if (el.checked === true) {
